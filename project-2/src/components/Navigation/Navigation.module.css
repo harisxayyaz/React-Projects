@@ -1,6 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  max-height: 72px;
 }
 
 nav ul {

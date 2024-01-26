@@ -25,12 +25,18 @@ const Form = () => {
           </div>
           <div className={styles.textAndInput}>
             <label htmlFor="text">Text</label>
-            <textarea name="text" />
+            <textarea name="text" rows="8" />
+          </div>
+          <div
+            className="div"
+            style={{ display: "flex", justifyContent: "end" }}
+          >
+            <Button text="SUBMIT BUTTON" />
           </div>
         </form>
       </div>
       <div className="imageDiv">
-        <div className="photo">
+        <div className={styles.photo}>
           <img src="./images/image.svg" alt="photo" />
         </div>
       </div>
