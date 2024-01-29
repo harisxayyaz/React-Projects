@@ -43,6 +43,10 @@ const WhiteArea = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  p {
+    text-align: center;
+  }
 `;
 
 export default Event;

@@ -78,7 +78,7 @@ const App = () => {
 const Background = styled.div`
   width: 100%;
   background-image: url("./images/bg.jpg");
-  background-size: rep;
+  background-size: cover;
 `;
 
 const MainContainer = styled.div`
