@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formDiv form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.textAndInput {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  position: relative;
+}
+
+.textAndInput input {
+  height: 40px;
+  padding: 0 8px;
+}
+
+.textAndInput label {
+  position: absolute;
+  top: -12px;
+  margin-left: 14px;
+  background-color: white;
+  padding: 0 8px;
+}
+
+.textAndInput textarea {
+  padding: 20px;
+}
