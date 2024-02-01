@@ -8,7 +8,7 @@
 git clone https://github.com/harisxayyaz/React-Projects.git
 ```
 
-<p>2- Open cmd in the project directory</p>
+<p>2- Open terminal in the project directory</p>
 <p>3- Run the command</p>
 
 ```
