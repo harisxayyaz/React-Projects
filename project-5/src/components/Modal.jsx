@@ -5,7 +5,7 @@ const Modal = () => {
     <>
       <div className="z-50 relative w-[20%] h-[40%] bg-red-500 ">Modal</div>
 
-      <div className="top-0 z-40 w-screen h-screen backdrop-blur absolute"></div>
+      <div className="top-0 z-40 w-screen h-screen absolute"></div>
     </>,
     document.getElementById("modal-root")
   );
